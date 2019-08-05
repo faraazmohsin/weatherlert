@@ -1,0 +1,86 @@
+.wlogo {
+  padding-bottom: 30px;
+  padding-top: 55px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cityHead {
+  font-size: 155px;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  padding-top: 120px;
+}
+
+#temp {
+  font-size: 180px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#unit {
+  font-size: 180px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 35px;
+}
+
+#weathermain {
+  display: flex;
+  justify-content: center;
+}
+
+#searchCont {
+  margin-top: 65px;
+  height: 500px;
+}
+
+.searchSection {
+  font-size: 62px;
+  width: 82%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: content-box;
+  border-color: black;
+  border: 1px solid;
+}
+
+#resetbtn {
+  font-size: 62px;
+  color: black;
+  width: 40%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 87px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  background-color: #ABB2B9;
+}
+
+#searchbtn {
+  font-size: 62px;
+  color: white;
+  width: 40%;
+  display: inline-block;
+  margin: auto;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  background-color: #4A235A;
+}
+
+#precip {
+  font-size: 60px;
+}
