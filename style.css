@@ -1,0 +1,134 @@
+body {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position: 460px 1050px;
+  background-size: 35%;
+}
+
+#weatherdescrip {
+  position: relative;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  bottom: 275px;
+}
+
+.wlogo {
+  padding-bottom: 30px;
+  padding-top: 55px;
+  width: 40%;
+  display: -webkit-box;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-n {
+  text-decoration: none;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  color: #111;
+}
+
+.foot-name {
+  text-align: center;
+  margin-top: 800px;
+  padding-bottom: 35px;
+}
+
+#cityHead {
+  font-size: 145px;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+#temp {
+  font-size: 130px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 49.5px;
+  margin-left: -290px;
+  margin-top: 60px;
+}
+
+#unit {
+  font-size: 130px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  margin-top: 59.5px;
+}
+
+#weathermain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#searchCont {
+  margin-top: 65px;
+  height: 250px;
+}
+
+.searchSection {
+  font-size: 62px;
+  width: 82%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border-color: black;
+  border: 1px solid;
+}
+
+#resetbtn {
+  font-size: 62px;
+  color: black;
+  width: 40%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 87px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  background-color: #ABB2B9;
+}
+
+#searchbtn {
+  font-size: 62px;
+  color: white;
+  width: 40%;
+  display: inline-block;
+  margin: auto;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  background-color: #4A235A;
+}
+
+#precip {
+  font-size: 60px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .wlogo {
+    width: 20%;
+    display: -webkit-inline-box;
+    position: relative;
+    left: 40%;
+  }
+
+}
